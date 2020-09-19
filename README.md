@@ -8,4 +8,5 @@ In the spark analysis file, replace the input file path.
 
 Use following command for the spark analysis:
 
-spark2-submit --master yarn --deploy-mode client --executor-memory=4g --num-executors=3 --executor-cores=2 --driver-memory=2g 
+spark2-submit --master yarn --deploy-mode client --executor-memory=4g --num-executors=3 --executor-cores=2 --driver-memory=2g spark_analysis.py
+================================================================================================================================================
